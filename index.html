@@ -1,13 +1,178 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>voting Table Assignment</title>
-</head>
-<body>
-    <div class="voting_table">
-        
+  </head>
+  <body>
+    <div class="section_header">
+      <h1>Election Voting Table for 2023 Candidates</h1>
+
+      <p>
+        <em>Below are the Election Results...</em>
+      </p>
     </div>
-</body>
+    <div class="voting_table">
+      <table border="2px">
+        <tr>
+          <th>LGA</th>
+          <th>APC</th>
+          <th>PDP</th>
+          <th>ADP</th>
+          <th>LP</th>
+          <th>CCP</th>
+          <th>YDP</th>
+        </tr>
+        <tr>
+          <td>Alimosho LGA</td>
+          <td>4500</td>
+          <td>3000</td>
+          <td>2500</td>
+          <td>3000</td>
+          <td>2100</td>
+          <td>2200</td>
+        </tr>
+        <tr>
+          <td>Ijebu LGA</td>
+          <td>4500</td>
+          <td>3000</td>
+          <td>2500</td>
+          <td>3000</td>
+          <td>2100</td>
+          <td>2200</td>
+        </tr>
+        <tr>
+          <td>Ikorodu LGA</td>
+          <td>4500</td>
+          <td>3000</td>
+          <td>2500</td>
+          <td>3000</td>
+          <td>2100</td>
+          <td>2200</td>
+        </tr>
+        <tr>
+          <td>Etiosa LGA</td>
+          <td>4500</td>
+          <td>3000</td>
+          <td>2500</td>
+          <td>3000</td>
+          <td>2100</td>
+          <td>2200</td>
+        </tr>
+        <tr>
+          <td>Gbagada LGA</td>
+          <td>4500</td>
+          <td>3900</td>
+          <td>2400</td>
+          <td>3100</td>
+          <td>2400</td>
+          <td>2400</td>
+        </tr>
+        <tr>
+          <td>Ijesha LGA</td>
+          <td>4400</td>
+          <td>3000</td>
+          <td>2100</td>
+          <td>3300</td>
+          <td>2600</td>
+          <td>2800</td>
+        </tr>
+        <tr>
+          <td>Ogijo LGA</td>
+          <td>5000</td>
+          <td>1000</td>
+          <td>2600</td>
+          <td>3000</td>
+          <td>2700</td>
+          <td>2400</td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div class="survey_form">
+      <h4 class="section_title">Survey Form</h4>
+      <p class="section_description">
+        <em>Thank You For Taking Your Time To Give Us FeedBack</em>
+      </p>
+      <form action="mailto:ademuwagunseyi@gmail.com">
+        <fieldset>
+          <label for="Name">Name</label>
+          <br />
+          <input type="text" name="Name" id="" placeholder="Enter Your Name" />
+          <br />
+          <br />
+          <label for="Email">Email</label>
+          <br />
+          <input
+            type="text"
+            name="Email"
+            placeholder="Enter your Email"
+            id=""
+          />
+          <br />
+          <br />
+          <label for="Age">Age</label>
+          <br />
+          <input type="text" placeholder="Enter Your Age" name="Age" />
+          <br />
+          <br />
+          <label for="Role">Choose A Role That Best Describes You</label>
+          <br />
+          <select name="role" id="roles">
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="BackEnd">BackEnd</option>
+            <option value="Product Design">Product Design</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Java">Java</option>
+          </select>
+          <br />
+          <br />
+          <label for="recommendation"
+            >Would You Recommend Our Product To A Friend?</label
+          >
+          <br />
+          <input type="radio" name="option" id="" />
+          <label for="never">Never</label>
+          <br />
+          <input type="radio" name="option" id="" />
+          <label for="maybe">Maybe</label>
+          <br />
+          <input type="radio" name="option" id="" />
+          <label for="likely">Likely</label>
+          <br />
+          <input type="radio" name="option" id="" />
+          <label for="yes">Yes</label>
+          <br />
+          <br />
+          <label for="recommendation">Select Things That You Liked About Our Product</label>
+          <br />
+          <input type="checkbox" name="ui" id="" />
+          <label for="">UI</label>
+          <br />
+          <input type="checkbox" name="ui" id="" />
+          <label for="">Features</label>
+          <br />
+          <input type="checkbox" name="ui" id="" />
+          <label for="">Services</label>
+          <br />
+          <input type="checkbox" name="ui" id="" />
+          <label for="">Simpleness</label>
+          <br />
+          <br />
+
+          <label for="">Remarks</label>
+          <br />
+          <br />
+          <textarea
+            name=""
+            placeholder="Tell Us How We Can Improve.."
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </fieldset>
+      </form>
+    </div>
+  </body>
 </html>
